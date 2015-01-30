@@ -1,0 +1,30 @@
+{
+  "name": "batch-then",
+  "description": "Run multiple functions in parallel with concurrency",
+  "version": "0.0.0",
+  "author": "Jonathan Ong <me@jongleberry.com> (http://jongleberry.com)",
+  "license": "MIT",
+  "repository": "thenables/batch-then",
+  "dependencies": {
+    "native-or-bluebird": "^1.1.2"
+  },
+  "devDependencies": {
+    "bluebird": "^2.9.4",
+    "istanbul": "0",
+    "mocha": "2"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec",
+    "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot",
+    "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter dot"
+  },
+  "keywords": [
+    "promise",
+    "then",
+    "concurrency",
+    "parallel"
+  ],
+  "files": [
+    "index.js"
+  ]
+}
