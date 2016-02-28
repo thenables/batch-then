@@ -1,5 +1,5 @@
 
-var Promise = require('native-or-bluebird')
+var Promise = require('any-promise')
 var assert = require('assert')
 
 var Batch = require('..')
@@ -77,6 +77,6 @@ it('should support .catch', function () {
   }
 
   return batch.catch(function () {
-    
+
   })
 })

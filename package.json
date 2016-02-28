@@ -6,7 +6,7 @@
   "license": "MIT",
   "repository": "thenables/batch-then",
   "dependencies": {
-    "native-or-bluebird": "^1.1.2"
+    "any-promise": "^1.1.0"
   },
   "devDependencies": {
     "bluebird": "^3.1.1",
